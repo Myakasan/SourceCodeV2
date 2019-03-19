@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col">
                 <input type="text" id="name" name="name" required
-                       minlength="4" maxlength="8" size="10">
+                       minlength="4" maxlength="80000" size="100">
               <p><input type="checkbox" aria-label="Checkbox for following text input" value="q1c2"> <span>Choix 2</span></p>
               <p><input type="checkbox" aria-label="Checkbox for following text input" value="q1c3"> <span>Choix 3</span></p>
             </div>

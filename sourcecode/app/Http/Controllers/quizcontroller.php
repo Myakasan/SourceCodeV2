@@ -11,6 +11,14 @@ class quizcontroller extends Controller
         $quizData = json_decode($quizJson);
         $test = $_POST;
 
+        if ($test["name"] == $quizData->rep->code1) {
+            echo "yes";
+        }
+        else  {
+            echo "merde";
+        }
+
+
         foreach ($test as $tests){
             echo $tests,"<br>";
         }
