@@ -14,4 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/merde', 'quizcontroller@quizJson');
+
+Route::post('/quizbla', 'quizcontroller@quizJson');
+
+
