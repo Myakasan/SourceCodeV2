@@ -1,0 +1,16 @@
+*{
+  text-align: center;
+}
+
+body{
+  background-color: #35373a;
+  color: white;
+}
+
+.lightdark{
+}
+
+p input{
+  width: 1.2em;
+  height: 1.2em;
+}
