@@ -26,3 +26,7 @@ Route::get('/echec2', function () {
 Route::get('/echec3', function () {
     return view('echec3');
 });
+
+Route::get('/success', function () {
+    return view('success');
+});
