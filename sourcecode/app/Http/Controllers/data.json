@@ -1,14 +1,14 @@
 { "rep": {
 
-        "code1": "<head> <title> Je suis malade. </title> </head>",
+        "code1": "42",
 
-        "code2": "<span> Bleueeeueueuearg </span>",
+        "code2": "42",
 
-        "code3": "<div> Fonction vital debug</div>" ,
+        "code3": "42" ,
 
-        "code4": "<li> Rosebud</li>" ,
+        "code4": "42" ,
 
-        "code5": "<footer> ... </footer>"
+        "code5": "38"
 
     }
 }
