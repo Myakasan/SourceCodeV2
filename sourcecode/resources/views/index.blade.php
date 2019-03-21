@@ -3,7 +3,7 @@
 @section('content')
 
 
-<h2>Code 1 <span id="q1" class="badge badge-success"><i class="fas fa-check"></i></span> </h2>
+<h2>Code 1 <span id="q1" class="badge {{$badge1}}"><i class="fas fa-check"></i></span> </h2>
 <form action="{{ url('quizbla') }}" method="post">
     {{ csrf_field() }}
 
@@ -14,7 +14,7 @@
             </div>
         </div> <br>
 
-            <h2>Code 2 <span id="q2" class="badge badge-success"><i class="fas fa-check"></i></span> </h2>
+            <h2>Code 2 <span id="q2" class="badge {{$badge2}}"><i class="fas fa-check"></i></span> </h2>
             <div class="row">
                 <div class="col">
                     <input type="text" id="q2" name="q2" required
@@ -22,7 +22,7 @@
                 </div>
             </div> <br>
 
-        <h2>Code 3 <span id="q3" class="badge badge-success"><i class="fas fa-check"></i></span> </h2>
+        <h2>Code 3 <span id="q3" class="badge {{$badge3}}"><i class="fas fa-check"></i></span> </h2>
         <div class="row">
             <div class="col">
                 <input type="text" id="q3" name="q3" required
@@ -30,7 +30,7 @@
             </div>
         </div> <br>
 
-          <h2>Code 4 <span id="q4" class="badge badge-success"><i class="fas fa-check"></i></span></h2>
+          <h2>Code 4 <span id="q4" class="badge {{$badge4}}"><i class="fas fa-check"></i></span></h2>
           <div class="row">
               <div class="col">
                   <input type="text" id="q4" name="q4" required
@@ -38,7 +38,7 @@
               </div>
           </div> <br>
 
-            <h2>Code 5 <span id="q4" class="badge badge-success"><i class="fas fa-check"></i></span></h2>
+            <h2>Code 5 <span id="q4" class="badge {{$badge5}}"><i class="fas fa-check"></i></span></h2>
             <div class="row">
                 <div class="col">
                     <input type="text" id="q5" name="q5" required
