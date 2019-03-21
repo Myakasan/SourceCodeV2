@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
 
 
 
@@ -29,6 +30,7 @@ quizJson('q'+i)
 
         $echec = 0;
         $win = 0;
+        $validate = [];
 
        if (isset($badge1)) {
 
@@ -40,11 +42,7 @@ quizJson('q'+i)
 
        }
 
-        $q1 = 0;
-        $q2 = 0;
-        $q3 = 0;
-        $q4 = 0;
-        $q5 = 0;
+
 
         for ($i = 1; $i <= 5; $i++) {
 
@@ -55,25 +53,23 @@ quizJson('q'+i)
                 $badge = <<<EOD
 <span class="badge badge-pill badge-success">o</span>
 EOD;
+                $validate = Arr::add(['q'.$i => 'Valid', 'state' => null], 'state', 1);
 
 
             } elseif ($quizRep["q1"] !== $quizData->rep->code1 and $quizRep["q1"] == $quizData->rep->code2 || $quizRep["q1"] == $quizData->rep->code3 || $quizRep["q1"] == $quizData->rep->code4 || $quizRep["q1"] == $quizData->rep->code5) {
-                $badge = <<<EOD
-<span class="badge badge-pill badge-warning">o</span>
-EOD;
+
+                $validate = Arr::add(['q'.$i => 'Valid', 'state' => null], 'state', 2);
 
 
             } else {
-                $badge = <<<EOD
-<span class="badge badge-pill badge-danger">o</span>
-EOD;
 
+                $validate = Arr::add(['q'.$i => 'Valid', 'state' => null], 'state', 3);
 
             }
 
 
 
         }
-        return view('index', compact('badge'));
+        return view('index');
     }
 }

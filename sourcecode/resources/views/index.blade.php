@@ -2,7 +2,8 @@
 
 @section('content')
 
-<h2>Indice 1</h2> <?php echo $badge?>
+
+<h2>Indice 1</h2> <span id="q1" class="badge badge-success">Success</span>
 <form action="{{ url('quizbla') }}" method="post">
     {{ csrf_field() }}
 
@@ -13,7 +14,7 @@
             </div>
         </div>
 
-            <h2>Indice 2</h2><?php echo $badge ?>
+            <h2>Indice 2</h2><span id="q2" class="badge badge-success">Success</span>
             <div class="row">
                 <div class="col">
                     <input type="text" id="q2" name="q2" required
@@ -21,7 +22,7 @@
                 </div>
             </div>
 
-        <h2>Indice 3</h2><?php echo $badge ?>
+        <h2>Indice 3</h2><span id="q3" class="badge badge-success">Success</span>
         <div class="row">
             <div class="col">
                 <input type="text" id="q3" name="q3" required
@@ -29,7 +30,7 @@
             </div>
         </div>
 
-          <h2>Indice 4</h2><?php echo $badge?>
+          <h2>Indice 4</h2><span id="q4" class="badge badge-success">Success</span>
           <div class="row">
               <div class="col">
                   <input type="text" id="q4" name="q4" required
@@ -37,7 +38,7 @@
               </div>
           </div>
 
-            <h2>Indice 5</h2><?php echo $badge?>
+            <h2>Indice 5</h2><span id="q4" class="badge badge-success">Success</span>
             <div class="row">
                 <div class="col">
                     <input type="text" id="q5" name="q5" required
@@ -51,4 +52,6 @@
                 </div>
               </div>
 </form>
+
+
 @endsection
