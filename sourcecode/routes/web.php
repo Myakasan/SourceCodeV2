@@ -15,4 +15,18 @@ Route::get('/', 'quizcontroller@quizInit');
 
 Route::post('/quizbla', 'quizcontroller@quizJson');
 
+Route::get('/echec', function () {
+    return view('echec');
+});
 
+Route::get('/echec2', function () {
+    return view('echec2');
+});
+
+Route::get('/echec3', function () {
+    return view('echec3');
+});
+
+Route::get('/success', function () {
+    return view('success');
+});
