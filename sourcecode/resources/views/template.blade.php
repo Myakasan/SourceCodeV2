@@ -18,6 +18,8 @@
       </div>
 
         @yield('content')
+        @yield('error')
+
 
     </div>
 

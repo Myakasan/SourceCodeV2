@@ -53,7 +53,6 @@
               </div>
 </form> <br>
 
-@yield('error')
 
 
 @endsection
