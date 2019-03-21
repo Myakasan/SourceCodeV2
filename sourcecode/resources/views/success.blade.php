@@ -20,7 +20,7 @@
 				Voici la solution
 		</span>
 		<span class="success-text">
-		    74
+		    78
 		</span>
 	</button>
 </div>
@@ -38,7 +38,7 @@ body {
   font-family: "Open Sans", sans-serif;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(ellipse at center, #222 39%, #111 100%);
+  background-color: #35373A;
 }
 
 h1, h2, h3, h4 {
