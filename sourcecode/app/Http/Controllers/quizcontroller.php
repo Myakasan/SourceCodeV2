@@ -43,7 +43,7 @@ class quizcontroller extends Controller
                 $validate["q$i"] = 1 ;
 
 
-            } elseif ($quizRep["q1"] !== $quizData->rep->code1 and $quizRep["q1"] == $quizData->rep->code2 || $quizRep["q1"] == $quizData->rep->code3 || $quizRep["q1"] == $quizData->rep->code4 || $quizRep["q1"] == $quizData->rep->code5) {
+            } elseif ($quizRep["q$i"] !== $quizData->rep->code1 and $quizRep["q$i"] == $quizData->rep->code2 || $quizRep["q$i"] == $quizData->rep->code3 || $quizRep["q$i"] == $quizData->rep->code4 || $quizRep["q$i"] == $quizData->rep->code5) {
 
 
                 $validate["q$i"] = 2 ;
