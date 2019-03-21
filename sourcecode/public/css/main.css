@@ -33,6 +33,10 @@ h2 .badge{
   border: solid white 1.5px;
 }
 
+.badge-warning{
+  color: white;
+}
+
 .btn-light{
   font-size: 1.3em;
   border: dotted #6d6f72 1px;

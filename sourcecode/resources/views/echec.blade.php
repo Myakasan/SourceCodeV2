@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+@section('error')
   <div class="code-area">
   <span style="color: #777;font-style:italic;">
     // 404 Théo not found.
@@ -78,7 +78,7 @@
         }
     }
     </style>
-
+@endsection
 
 </body>
 
