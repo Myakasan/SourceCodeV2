@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb2401f-b97d-4f3e-8001-6b07aecd4bef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourcecode/app/Http/Controllers/quizcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/sourcecode/app/Http/Controllers/quizcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourcecode/app/Http/Controllersdatajsonvalidate.json" beforeDir="false" afterPath="$PROJECT_DIR$/sourcecode/app/Http/Controllersdatajsonvalidate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourcecode/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/sourcecode/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +34,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sourcecode/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
@@ -46,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sourcecode/app/Http/Controllers/quizcontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="170">
+              <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -137,8 +134,8 @@
         <option value="$PROJECT_DIR$/sourcecode/resources/views/api.html" />
         <option value="$PROJECT_DIR$/sourcecode/resources/views/api.blade.php" />
         <option value="$PROJECT_DIR$/sourcecode/app/Http/Controllers/data.json" />
-        <option value="$PROJECT_DIR$/sourcecode/app/Http/Controllers/quizcontroller.php" />
         <option value="$PROJECT_DIR$/sourcecode/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/sourcecode/app/Http/Controllers/quizcontroller.php" />
       </list>
     </option>
   </component>
@@ -376,7 +373,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58114000" />
+    <option name="totallyTimeSpent" value="58322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,20 +529,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecode/app/Http/Controllers/quizcontroller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sourcecode/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="44" column="84" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcecode/app/Http/Controllers/quizcontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
