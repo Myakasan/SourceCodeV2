@@ -18,10 +18,14 @@ class quizcontroller extends Controller
         $badge4 = "";
         $badge5 = "";
 
-        $quizRep = "";
+        $quizRep1 = "";
+        $quizRep2 = "";
+        $quizRep3 = "";
+        $quizRep4 = "";
+        $quizRep5 = "";
 
 
-        return view('index', compact('badge1','badge2','badge3','badge4','badge5'));
+        return view('index', compact('badge1','badge2','badge3','badge4','badge5', 'quizRep1', 'quizRep2', 'quizRep3', 'quizRep4', 'quizRep5' ));
 
     }
 
@@ -90,7 +94,14 @@ class quizcontroller extends Controller
         }
 
         else {
-            return view('index', compact('badge1', 'badge2', 'badge3', 'badge4', 'badge5'));
+
+            $quizRep1 = $quizRep["q1"];
+            $quizRep2 = $quizRep["q2"];
+            $quizRep3 = $quizRep["q3"];
+            $quizRep4 = $quizRep["q4"];
+            $quizRep5 = $quizRep["q5"];
+
+            return view('index', compact('badge1','badge2','badge3','badge4','badge5', 'quizRep1', 'quizRep2', 'quizRep3', 'quizRep4', 'quizRep5' ));
         }
 
     }
