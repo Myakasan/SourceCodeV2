@@ -30,3 +30,7 @@ Route::get('/echec3', function () {
 Route::get('/success', function () {
     return view('success');
 });
+
+Route::get('/error1', function () {
+    return view('indexEchec1');
+});

@@ -1,10 +1,3 @@
-jQuery(document).ready(function(){
-
-    var tesJson =
-
-    if () {
-
-    }
-
-
-});
+    $(window).on('load',function(){
+        $('#onload').modal('show');
+    });
