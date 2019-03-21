@@ -18,6 +18,8 @@ class quizcontroller extends Controller
         $badge4 = "";
         $badge5 = "";
 
+        $quizRep = "";
+
 
         return view('index', compact('badge1','badge2','badge3','badge4','badge5'));
 
