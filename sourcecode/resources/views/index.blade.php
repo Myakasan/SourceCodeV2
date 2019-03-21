@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <h2>Indice 1</h2> <span id="q1" class="badge badge-success">Success</span>
 <form action="{{ url('quizbla') }}" method="post">
     {{ csrf_field() }}

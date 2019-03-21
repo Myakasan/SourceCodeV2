@@ -11,10 +11,10 @@ use Illuminate\Support\Arr;
 class quizcontroller extends Controller
 {
     public function quizInit() {
-        $badge = "";
 
 
-        return view('index', compact('badge'));
+
+        return view('index');
 
     }
 /*    i=1
@@ -32,15 +32,6 @@ quizJson('q'+i)
         $win = 0;
         $validate = [];
 
-       if (isset($badge1)) {
-
-
-       }
-
-       else {
-           $badge = "";
-
-       }
 
 
 
@@ -49,27 +40,33 @@ quizJson('q'+i)
             $code = "code".$i;
 
             if ($quizRep["q".$i] == $quizData->rep->$code) {
-                $q1 = 1;
-                $badge = <<<EOD
-<span class="badge badge-pill badge-success">o</span>
-EOD;
-                $validate = Arr::add(['q'.$i => 'Valid', 'state' => null], 'state', 1);
+
+
+                $validate = Arr::add(['q'.$i => '1'], 'state', 1);
 
 
             } elseif ($quizRep["q1"] !== $quizData->rep->code1 and $quizRep["q1"] == $quizData->rep->code2 || $quizRep["q1"] == $quizData->rep->code3 || $quizRep["q1"] == $quizData->rep->code4 || $quizRep["q1"] == $quizData->rep->code5) {
 
-                $validate = Arr::add(['q'.$i => 'Valid', 'state' => null], 'state', 2);
+                $validate = Arr::add(['q'.$i => '2'], 'state', 2);
 
 
             } else {
 
-                $validate = Arr::add(['q'.$i => 'Valid', 'state' => null], 'state', 3);
+                $validate = Arr::add(['q'.$i => '3'], 'state', 3);
 
             }
 
 
 
         }
+        $validateJson = json_encode($validate);
+        $file = __DIR__ ."datajsonvalidate.json";
+
+
+        file_put_contents($file, $validateJson);
+
         return view('index');
+
+
     }
 }
