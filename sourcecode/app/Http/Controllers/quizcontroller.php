@@ -41,18 +41,20 @@ quizJson('q'+i)
 
             if ($quizRep["q".$i] == $quizData->rep->$code) {
 
-
-                $validate = Arr::add(['q'.$i => '1'], 'state', 1);
+                $array = ['q'.$i => '1'];
+                $validate[] = $array;
 
 
             } elseif ($quizRep["q1"] !== $quizData->rep->code1 and $quizRep["q1"] == $quizData->rep->code2 || $quizRep["q1"] == $quizData->rep->code3 || $quizRep["q1"] == $quizData->rep->code4 || $quizRep["q1"] == $quizData->rep->code5) {
 
-                $validate = Arr::add(['q'.$i => '2'], 'state', 2);
+                $array = ['q'.$i => '2'];
+                $validate[] = $array;
 
 
             } else {
 
-                $validate = Arr::add(['q'.$i => '3'], 'state', 3);
+                $array = ['q'.$i => '3'];
+                $validate[] = $array;
 
             }
 
