@@ -34,3 +34,7 @@ Route::get('/success', function () {
 Route::get('/error1', function () {
     return view('indexEchec1');
 });
+
+Route::get('/error2', function () {
+    return view('indexEchec2');
+});

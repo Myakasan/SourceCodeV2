@@ -9,7 +9,7 @@
   <div id='error-text'>
     <span>x_X</span>
     <p>Vous n'y êtes toujours pas.</p>
-    <p class='hmpg'><a href='/' class="back">Cherchez encore</a></p>
+    <p class='hmpg'>Cherchez encore</p>
   </div>
 </div>
 

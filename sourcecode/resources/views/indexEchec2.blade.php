@@ -57,7 +57,6 @@
               </div>
 </form> <br>
 
-<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -68,30 +67,13 @@
         </button>
       </div>
       <div class="modal-body">
-        <div class="code-area">
-        <span style="color: #777;font-style:italic;">
-          // 404 Théo not found.
-        </span>
-        <span>
-          <span style="color:#d65562;">
-            if
-          </span>
-          (<span style="color:#4ca8ef;">!</span><span style="font-style: italic;color:#bdbdbd;">found</span>)
-          {
-        </span> <br>
-        <span>
-          <span style="padding-left: 15px;color:#2796ec">
-             <i style="width: 10px;display:inline-block"></i>throw
-          </span>
-          <span>
-            (<span style="color: #a6a61f">"(╯°□°)╯︵ ┻━┻"</span>);
-          </span>
-          <span style="display:block">}</span>
-          <span style="color: #777;font-style:italic;">
-            // Retournez chercher Théo !
-          </span>
-        </span>
+        <div id='oopss'>
+      <div id='error-text'>
+        <span>x_X</span>
+        <p>Vous n'y êtes toujours pas.</p>
+        <p class='hmpg'>Cherchez encore</p>
       </div>
+    </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-dark" data-dismiss="modal">Continuez à chercher</button>
