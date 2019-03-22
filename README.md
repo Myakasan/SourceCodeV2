@@ -28,10 +28,6 @@ Orange : La réponse existe mais n’est pas placée au bonne endroit.
 Rouge : La réponse renseignée n’existe pas.
 
 
-
-
-
-
 II / L’installation
 
 L’installation consiste à déployer le l’application créée sous Laravel sur un serveur.
@@ -58,11 +54,11 @@ Pour les informations en “durs”  les vues se situent dans :
 
 Les fichiers pouvant être modifier sont :
 
-Index
-indexEchec1
-indexEchec2
-Success
-Template
+-Index
+-indexEchec1
+-indexEchec2
+-Success
+-Template
 
 Ces fichiers comportent les technologies Bootstrap et Blade de Laravel
 
