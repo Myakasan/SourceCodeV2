@@ -39,6 +39,8 @@ Aucune migration de base de données n’est nécessaire car celles ci sont stoc
 
 
 
+
+
 III / Modifier les données
 
 Pour modifier les 5 morceaux de codes que les joueurs doivent trouvés :
@@ -54,11 +56,11 @@ Pour les informations en “durs”  les vues se situent dans :
 
 Les fichiers pouvant être modifier sont :
 
--Index
--indexEchec1
--indexEchec2
--Success
--Template
+- Index
+- indexEchec1
+- indexEchec2
+- Success
+- Template
 
 Ces fichiers comportent les technologies Bootstrap et Blade de Laravel
 
