@@ -60,6 +60,7 @@ class quizcontroller extends Controller
                 $validate["q$i"] = 3 ;
 
             }
+            
             $var = "badge$i";
 
             if ($validate["q$i"] == 1 ) {
@@ -95,14 +96,14 @@ class quizcontroller extends Controller
 
         else {
 
-//            $lose = rand(1,3);
+            $lose = rand(1,2);
             $quizRep1 = $quizRep["q1"];
             $quizRep2 = $quizRep["q2"];
             $quizRep3 = $quizRep["q3"];
             $quizRep4 = $quizRep["q4"];
             $quizRep5 = $quizRep["q5"];
 
-            return view('indexEchec1', compact('badge1','badge2','badge3','badge4','badge5', 'quizRep1', 'quizRep2', 'quizRep3', 'quizRep4', 'quizRep5' ));
+            return view("indexEchec$lose", compact('badge1','badge2','badge3','badge4','badge5', 'quizRep1', 'quizRep2', 'quizRep3', 'quizRep4', 'quizRep5' ));
         }
 
     }
