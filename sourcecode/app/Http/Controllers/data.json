@@ -1,15 +1,15 @@
 { "rep":
     {
 
-        "code1": "42",
+        "code1": "if(lost()",
 
-        "code2": "24",
+        "code2": "===true)",
 
-        "code3": "42" ,
+        "code3": "{lost()" ,
 
-        "code4": "42" ,
+        "code4": ".stop();" ,
 
-        "code5": "42"
+        "code5": "getCode;}"
 
     }
 }

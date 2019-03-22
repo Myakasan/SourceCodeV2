@@ -14,7 +14,7 @@
       <img src="https://image.noelshack.com/fichiers/2019/12/4/1553168336-the-escape-game-orlando-logo-no-background.png" alt="img logo">
       <h1>< ></h1>
       <div class="alert alert-dark" role="alert">
-        Pour continuer la recherche de Théo il faudra trouver le code secret ?
+        Pour continuer la recherche de Théo il faudra trouver le code secret.
       </div>
 
         @yield('content')

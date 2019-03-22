@@ -20,7 +20,7 @@
 				Voici la solution
 		</span>
 		<span class="success-text">
-		    78
+		    55
 		</span>
 	</button>
 </div>

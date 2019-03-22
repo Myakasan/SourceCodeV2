@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col">
                 <input type="text" id="q1" name="q1" required
-                       minlength="0" maxlength="50" size="50" value="{{$quizRep1}}"  placeholder="<p>hello world</p>">
+                       minlength="0" maxlength="50" size="50" value="{{$quizRep1}}"  placeholder="if">
             </div>
         </div> <br>
 
@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col">
                     <input type="text" id="q2" name="q2" required
-                           minlength="0" maxlength="50" size="50" value="{{$quizRep2}}" placeholder="console.log('hello world');">
+                           minlength="0" maxlength="50" size="50" value="{{$quizRep2}}" placeholder="==">
                 </div>
             </div> <br>
 
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col">
                 <input type="text" id="q3" name="q3" required
-                       minlength="0" maxlength="50" size="50" value="{{$quizRep3}}" placeholder="echo 'hello world';">
+                       minlength="0" maxlength="50" size="50" value="{{$quizRep3}}" placeholder="{l">
             </div>
         </div> <br>
 
@@ -34,7 +34,7 @@
           <div class="row">
               <div class="col">
                   <input type="text" id="q4" name="q4" required
-                         minlength="0" maxlength="50" size="50" value="{{$quizRep4}}" placeholder="print('hello world')">
+                         minlength="0" maxlength="50" size="50" value="{{$quizRep4}}" placeholder=".s">
               </div>
           </div> <br>
 
@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col">
                     <input type="text" id="q5" name="q5" required
-                           minlength="0" maxlength="50" size="50" value="{{$quizRep5}}" placeholder=" c'est trop long a écrire en Django ">
+                           minlength="0" maxlength="50" size="50" value="{{$quizRep5}}" placeholder="get">
                 </div>
             </div> <br>
 
